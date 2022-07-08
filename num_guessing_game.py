@@ -22,6 +22,7 @@ while True:
     while True:
         user_guess=input("Guess a number: ")
         if int(user_guess)!=(rand_num):
+            print ("Try again")
             count+=1
             continue
         count+=1
